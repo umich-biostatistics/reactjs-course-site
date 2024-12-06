@@ -1,0 +1,14 @@
+---
+project:
+  type: website
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+listing:
+  type: default
+  contents:
+    - "lecture*/*.qmd"
+---

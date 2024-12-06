@@ -1,0 +1,19 @@
+{
+  "hash": "17c3ac13a349d9ec60986f71977eee1e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nformat:\n  live-revealjs:\n    theme: dark\ntitle: Example Slides 2\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n## Editable examples\n\n\n\n::: {.cell}\n```{webr}\nplot(rnorm(1000))\n```\n:::\n\n\n\n## Scrollable output\n\n\n\n::: {.cell}\n```{webr}\nmod <- lm(mpg ~ cyl, data = mtcars)\nplot(mod)\nsummary(mod)\n```\n:::\n\n\n\n## Read Only\n\n\n\n::: {.cell edit='false'}\n```{webr}\n#| edit: false\nmod <- lm(mpg ~ cyl, data = mtcars)\nsummary(mod)\n```\n:::\n\n\n\n## Exercises\n\n\n\n::: {.cell exercise='ex1' caption='Exercise 1'}\n```{webr}\n#| exercise: ex1\n#| caption: Exercise 1\n1 + 2 + 3 + ______\n```\n:::\n\n::: {.cell exercise='ex1' check='true'}\n```{webr}\n#| exercise: ex1\n#| check: true\nif (.result == 10) {\n  list(message = \"Great work!\", correct = TRUE)\n} else {\n  list(message = \"That's incorrect.\", correct = FALSE)\n}\n```\n:::\n\n\n\n::: { .hint exercise=\"ex1\" }\n\nYou should make the expression sum to 10.\n\n:::\n\n::: { .solution exercise=\"ex1\" }\n\n**Solution:**\n\n```r\n1 + 2 + 3 + 4\n```\n\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
