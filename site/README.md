@@ -1,7 +1,7 @@
 # reveal.js GitHub Pages Site
 
 This an example GitHub Pages site, rendered with Quarto and pushed from 
-[umich-biostatistics/revealjs-course-site](https://github.com/umich-biostatistics/revealjs-course-site_gh-pages)
+[umich-biostatistics/revealjs-course-site](https://github.com/umich-biostatistics/revealjs-course-site)
 as a git subtree.
 
 An alternative to create something similar would be to use a `.gitignore` file
