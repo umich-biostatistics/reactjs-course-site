@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Course Slides",
-    "section": "",
-    "text": "Example Slides 1\n\n\n\n\n\nThis is about stuff.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Slides 2\n\n\n\n\n\nThis is about differenet stuff.\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "slide1.html#editable-examples",
-    "href": "slide1.html#editable-examples",
-    "title": "Example Slides 1",
-    "section": "Editable examples",
-    "text": "Editable examples"
-  },
-  {
-    "objectID": "slide1.html#scrollable-output",
-    "href": "slide1.html#scrollable-output",
-    "title": "Example Slides 1",
-    "section": "Scrollable output",
-    "text": "Scrollable output"
-  },
-  {
-    "objectID": "slide1.html#read-only",
-    "href": "slide1.html#read-only",
-    "title": "Example Slides 1",
-    "section": "Read Only",
-    "text": "Read Only"
-  },
-  {
-    "objectID": "slide1.html#exercises",
-    "href": "slide1.html#exercises",
-    "title": "Example Slides 1",
-    "section": "Exercises",
-    "text": "Exercises\n\n\n\n\n\n\n\n\n\n\n\n\nYou should make the expression sum to 10.\n\n\nSolution:\n1 + 2 + 3 + 4"
-  },
-  {
-    "objectID": "slide2.html#editable-examples",
-    "href": "slide2.html#editable-examples",
-    "title": "Example Slides 2",
-    "section": "Editable examples",
-    "text": "Editable examples"
-  },
-  {
-    "objectID": "slide2.html#scrollable-output",
-    "href": "slide2.html#scrollable-output",
-    "title": "Example Slides 2",
-    "section": "Scrollable output",
-    "text": "Scrollable output"
-  },
-  {
-    "objectID": "slide2.html#read-only",
-    "href": "slide2.html#read-only",
-    "title": "Example Slides 2",
-    "section": "Read Only",
-    "text": "Read Only"
-  },
-  {
-    "objectID": "slide2.html#exercises",
-    "href": "slide2.html#exercises",
-    "title": "Example Slides 2",
-    "section": "Exercises",
-    "text": "Exercises\n\n\n\n\n\n\n\n\n\n\n\n\nYou should make the expression sum to 10.\n\n\nSolution:\n1 + 2 + 3 + 4"
-  },
-  {
-    "objectID": "lecture2/slide2.html",
-    "href": "lecture2/slide2.html",
-    "title": "Example Slides 2",
-    "section": "",
-    "text": "plot(rnorm(1000))"
-  },
-  {
-    "objectID": "lecture2/slide2.html#editable-examples",
-    "href": "lecture2/slide2.html#editable-examples",
-    "title": "Example Slides 2",
-    "section": "",
-    "text": "plot(rnorm(1000))"
-  },
-  {
-    "objectID": "lecture2/slide2.html#scrollable-output",
-    "href": "lecture2/slide2.html#scrollable-output",
-    "title": "Example Slides 2",
-    "section": "Scrollable output",
-    "text": "Scrollable output\n\nmod &lt;- lm(mpg ~ cyl, data = mtcars)\nplot(mod)\nsummary(mod)"
-  },
-  {
-    "objectID": "lecture2/slide2.html#read-only",
-    "href": "lecture2/slide2.html#read-only",
-    "title": "Example Slides 2",
-    "section": "Read Only",
-    "text": "Read Only\n\n#| edit: false\nmod &lt;- lm(mpg ~ cyl, data = mtcars)\nsummary(mod)"
-  },
-  {
-    "objectID": "lecture2/slide2.html#exercises",
-    "href": "lecture2/slide2.html#exercises",
-    "title": "Example Slides 2",
-    "section": "Exercises",
-    "text": "Exercises\n\n#| exercise: ex1\n#| caption: Exercise 1\n1 + 2 + 3 + ______\n\n\n#| exercise: ex1\n#| check: true\nif (.result == 10) {\n  list(message = \"Great work!\", correct = TRUE)\n} else {\n  list(message = \"That's incorrect.\", correct = FALSE)\n}\n\n\nYou should make the expression sum to 10.\n\n\nSolution. Solution:\n1 + 2 + 3 + 4"
-  },
-  {
-    "objectID": "lecture1/slide1.html",
-    "href": "lecture1/slide1.html",
-    "title": "Example Slides 1",
-    "section": "",
-    "text": "plot(rnorm(1000))"
-  },
-  {
     "objectID": "lecture1/slide1.html#editable-examples",
     "href": "lecture1/slide1.html#editable-examples",
     "title": "Example Slides 1",
@@ -131,5 +26,40 @@
     "title": "Example Slides 1",
     "section": "Exercises",
     "text": "Exercises\n\n\n\n\n\n\n\n\n\n\n\n\nYou should make the expression sum to 10.\n\n\nSolution:\n1 + 2 + 3 + 4"
+  },
+  {
+    "objectID": "lecture2/slide2.html#editable-examples",
+    "href": "lecture2/slide2.html#editable-examples",
+    "title": "Example Slides 2",
+    "section": "Editable examples",
+    "text": "Editable examples"
+  },
+  {
+    "objectID": "lecture2/slide2.html#scrollable-output",
+    "href": "lecture2/slide2.html#scrollable-output",
+    "title": "Example Slides 2",
+    "section": "Scrollable output",
+    "text": "Scrollable output"
+  },
+  {
+    "objectID": "lecture2/slide2.html#read-only",
+    "href": "lecture2/slide2.html#read-only",
+    "title": "Example Slides 2",
+    "section": "Read Only",
+    "text": "Read Only"
+  },
+  {
+    "objectID": "lecture2/slide2.html#exercises",
+    "href": "lecture2/slide2.html#exercises",
+    "title": "Example Slides 2",
+    "section": "Exercises",
+    "text": "Exercises\n\n\n\n\n\n\n\n\n\n\n\n\nYou should make the expression sum to 10.\n\n\nSolution:\n1 + 2 + 3 + 4"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Course Slides",
+    "section": "",
+    "text": "Example Slides 1\n\n\n\n\n\nThis is about some stuff.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Slides 2\n\n\n\n\n\nThis is about differenet stuff.\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
