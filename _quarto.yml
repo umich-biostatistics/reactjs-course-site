@@ -1,0 +1,12 @@
+project:
+  output-dir: slides
+  execute-dir: project
+
+webr:
+  cell-options:
+    autorun: true
+    fig-width: 11
+    fig-height: 5
+    
+execute:
+  freeze: auto
