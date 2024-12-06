@@ -3,7 +3,7 @@ format:
   live-revealjs:
     theme: dark
 title: Example Slides 2
-description: This is about differenet stuff.
+description: This is about some differenet stuff.
 ---
 
 {{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
